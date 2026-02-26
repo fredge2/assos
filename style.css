@@ -209,6 +209,7 @@ h2 {
 }
 
 /* --- FORMULAIRE --- */
+/*
 .form-container {
   background: var(--blanc);
   padding: 40px;
@@ -264,7 +265,59 @@ h2 {
 .btn:hover {
   background-color: var(--bleu-ardoise);
 }
+*/
 
+/* --- NOUVELLE BOX CONTACT --- */
+.email-box {
+  background: var(--blanc);
+  padding: 50px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 4px solid var(--or-doux); /* Petite ligne dorée élégante en haut */
+}
+
+.icon-mail {
+  font-size: 40px;
+  color: var(--or-doux);
+  margin-bottom: 10px;
+}
+
+.email-box h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.email-box p {
+  margin-bottom: 30px;
+  color: var(--bleu-ardoise);
+  font-size: 15px;
+}
+
+/* Le bouton/lien cliquable de l'email */
+.email-link {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--bleu-ardoise);
+  text-decoration: none;
+  padding: 15px 35px;
+  background-color: var(--beige-pierre);
+  border-radius: 50px; /* Donne une forme de pilule élégante */
+  border: 1px solid #e2ded5;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.email-link:hover {
+  background-color: var(--or-doux);
+  color: var(--blanc);
+  border-color: var(--or-doux);
+  transform: translateY(-3px); /* Petit effet de soulèvement au survol */
+  box-shadow: 0 6px 15px rgba(197, 160, 89, 0.3);
+}
 /* --- FOOTER --- */
 footer {
   background: var(--bleu-ardoise);
