@@ -140,9 +140,22 @@
           Vous souhaitez soutenir nos projets, nous signaler un lieu en péril ou
           rejoindre l'association ? Écrivez-nous.
         </p>
-        <!--
+        
         <div class="form-container">
-          <form name="contact-association" method="POST" data-netlify="true">
+         
+
+            <form
+            class="contact-form"
+            name="contact-association"
+            method="POST"
+            data-netlify="true"
+            action="/"
+          >
+            <input type="hidden" name="form-name" value="contact-association" />
+
+
+
+
             <div class="form-group">
               <label for="nom">Nom & Prénom :</label>
               <input type="text" id="nom" name="nom" required />
@@ -172,7 +185,7 @@
             <button type="submit" class="btn">Envoyer mon message</button>
           </form>
         </div>
--->
+
 
         <div class="email-box">
           <div class="icon-mail">✉</div>
