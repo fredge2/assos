@@ -209,7 +209,7 @@ h2 {
 }
 
 /* --- FORMULAIRE --- */
-/*
+
 .form-container {
   background: var(--blanc);
   padding: 40px;
@@ -265,7 +265,7 @@ h2 {
 .btn:hover {
   background-color: var(--bleu-ardoise);
 }
-*/
+
 
 /* --- NOUVELLE BOX CONTACT --- */
 .email-box {
