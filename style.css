@@ -494,3 +494,8 @@ footer {
   color: var(--blanc);
   border-color: var(--or-doux);
 }
+
+/* Sécurité : cache le champ honeypot pour les visiteurs réels */
+.hidden {
+  display: none;
+}
